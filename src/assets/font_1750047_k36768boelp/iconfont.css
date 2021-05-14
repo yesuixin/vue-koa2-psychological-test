@@ -1,0 +1,48 @@
+@font-face {font-family: "my-icon";
+  src: url('./iconfont.ttf')format('truetype'); /* IE9 */
+  
+}
+
+.my-icon {
+  /* width: 100px; height: 100px; */
+  fill: currentColor;
+  overflow: hidden;
+  font-family: "my-icon" !important;
+  font-size: 50px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-yuzhouxingqiu-01:before {
+  content: "\e603";
+}
+
+.my-icon-yuzhouxingqiu-04:before {
+  content: "\e604";
+}
+
+.my-icon-yuzhouxingqiu-03:before {
+  content: "\e605";
+}
+
+.my-icon-yuzhouxingqiu-07:before {
+  content: "\e606";
+}
+
+.my-icon-yuzhouxingqiu-08:before {
+  content: "\e607";
+}
+
+.my-icon-yuzhouxingqiu-10:before {
+  content: "\e608";
+}
+
+.my-icon-yuzhouxingqiu-15:before {
+  content: "\e609";
+}
+
+.my-icon-yuzhouxingqiu-24:before {
+  content: "\e60d";
+}
+

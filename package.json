@@ -1,0 +1,69 @@
+{
+  "name": "musicst",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "better-scroll": "^1.15.2",
+    "core-js": "^3.3.2",
+    "css-loader": "^3.5.2",
+    "element-ui": "^2.13.0",
+    "koa-router": "^7.4.0",
+    "muse-ui": "^3.0.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vant": "^2.8.5",
+    "vue": "^2.6.10",
+    "vue-cookies": "^1.6.1",
+    "vue-monoplasty-slide-verify": "^1.1.2",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.1.6",
+    "vue-star": "0.0.4",
+    "vue-waterfall2": "^1.9.6",
+    "vuex": "^3.1.2",
+    "vux": "^2.9.4",
+    "vux-loader": "^1.2.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.13.0",
+    "cache-loader": "^4.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
